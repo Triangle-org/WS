@@ -30,7 +30,7 @@
     "triangle/console": "^1.3",
     "triangle/database": "^1.0",
     "triangle/events": "^1.0",
-    "triangle/ws": "^1.0"
+    "triangle/websocket": "^1.0"
   },
   "suggest": {
     "ext-simplexml": "For XML Support",
