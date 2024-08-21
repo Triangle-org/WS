@@ -1,0 +1,58 @@
+{
+  "name": "triangle/ws",
+  "description": "Triangle WebSocket - High performance MVC framework",
+  "type": "project",
+  "keywords": [
+    "Triangle", "MVC", "Framework", "WebSocket"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "role": "Developer",
+      "name": "Ivan Zorin",
+      "email": "creator@localzet.com",
+      "homepage": "https://github.com/localzet"
+    },
+    {
+      "role": "Community",
+      "name": "Localzet Group",
+      "email": "community@localzet.com",
+      "homepage": "https://www.localzet.com"
+    }
+  ],
+  "support": {
+    "email": "support@localzet.com",
+    "source": "https://github.com/Triangle-org/WS"
+  },
+  "require": {
+    "php": "^8.2",
+    "triangle/engine": "^7.0",
+    "triangle/console": "^1.3",
+    "triangle/database": "^1.0",
+    "triangle/events": "^1.0",
+    "triangle/ws": "^1.0"
+  },
+  "suggest": {
+    "ext-simplexml": "For XML Support",
+    "ext-libxml": "For XML Support"
+  },
+  "autoload": {
+    "psr-4": {
+      "": "./"
+    },
+    "files": [
+      "support/helpers.php"
+    ]
+  },
+  "scripts": {
+    "post-package-install": [
+      "Triangle\\Engine\\Plugin::install"
+    ],
+    "post-package-update": [
+      "Triangle\\Engine\\Plugin::update"
+    ],
+    "pre-package-uninstall": [
+      "Triangle\\Engine\\Plugin::uninstall"
+    ]
+  }
+}
