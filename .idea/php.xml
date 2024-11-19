@@ -60,6 +60,9 @@
       <path value="$PROJECT_DIR$/vendor/triangle/router" />
       <path value="$PROJECT_DIR$/vendor/triangle/middleware" />
       <path value="$PROJECT_DIR$/vendor/triangle/ws" />
+      <path value="$PROJECT_DIR$/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/vendor/triangle/websocket" />
+      <path value="$PROJECT_DIR$/vendor/localzet/events" />
     </include_path>
   </component>
   <component name="PhpInterpreters">
