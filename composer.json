@@ -26,11 +26,11 @@
   },
   "require": {
     "php": "^8.2",
-    "triangle/engine": "^7.1",
+    "triangle/engine": "^8.1",
+    "triangle/engine-ws": "^2.0",
     "triangle/console": "^1.3",
     "triangle/database": "^1.0",
-    "triangle/events": "^1.0",
-    "triangle/websocket": "^1.0"
+    "triangle/events": "^1.0"
   },
   "suggest": {
     "ext-simplexml": "For XML Support",
