@@ -29,7 +29,6 @@ namespace support;
 /**
  * @link https://www.php-fig.org/psr/psr-7/
  */
-#[\AllowDynamicProperties]
 class Request extends \Triangle\Ws\Request
 {
 }
